@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "learning-reinforcement-learning"
+version = "0.1.0"
+description = "Some scripts to play and learn Reinforcement Learning"
+authors = ["Loïc <baret.loic.1@gmail.com>"]
+readme = "README.md"
+packages = [{include = "learning_reinforcement_learning"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+numpy = "^1.25.2"
+scipy = "^1.11.1"
+matplotlib = "^3.7.2"
+seaborn = "^0.12.2"
+poethepoet = "^0.21.1"
+ipykernel = "^6.25.0"
+
+[tool.poe.tasks]
+torch-cuda = "pip install torch==2.0.0+cu118 torchvision==0.15+cu118 -f https://download.pytorch.org/whl/torch_stable.html"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
