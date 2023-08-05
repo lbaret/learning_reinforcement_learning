@@ -9,3 +9,7 @@ Les implémentations se font à l'aide du *framework* [PyTorch](https://pytorch.
 Je vous laisse prendre le soin de découvrir les algorithmes, et surtout ne pas hésiter à me contacter où ouvrir un ticket si vous avez des changements à apporter/suggérer.
 
 Bonne découverte !
+
+---
+
+Le code se retrouve également sur format [Google Colaboratory](https://drive.google.com/file/d/1EDG4fhiaHD5sptw69iOwKwUACCwoUrLF/view?usp=sharing).
